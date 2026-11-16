@@ -1,0 +1,6 @@
+{
+  "name": "A.U.R.A. Music",
+  "description": "Локальный музыкальный плеер A.U.R.A. Music в стиле Material Design 3 с адаптивными цветами Material You, плейлистами, 5-полосным эквалайзером и медиа-виджетом в шторке уведомлений.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

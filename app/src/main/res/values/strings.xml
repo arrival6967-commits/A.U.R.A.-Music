@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">A.U.R.A. Music</string>
+    <string name="nav_library">Медиатека</string>
+    <string name="nav_playlists">Плейлисты</string>
+    <string name="nav_equalizer">Эквалайзер</string>
+    <string name="search_hint">Поиск музыки на устройстве…</string>
+    <string name="import_audio">Добавить файлы</string>
+    <string name="scan_device_music">Сканировать устройство</string>
+    <string name="create_playlist">Новый плейлист</string>
+    <string name="now_playing">Сейчас играет</string>
+    <string name="equalizer_title">Аудио-движок и Эквалайзер</string>
+    <string name="bass_boost">Усиление баса</string>
+    <string name="virtualizer">3D Виртуализатор</string>
+    <string name="loudness_enhancer">Усилитель громкости</string>
+    <string name="notification_channel_name">Воспроизведение A.U.R.A. Music</string>
+    <string name="notification_channel_desc">Медиа-плеер и управление воспроизведением в шторке уведомлений</string>
+</resources>

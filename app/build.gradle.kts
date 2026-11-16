@@ -142,3 +142,11 @@ dependencies {
   "ksp"(libs.androidx.room.compiler)
   // "ksp"(libs.moshi.kotlin.codegen)
 }
+
+tasks.register<Copy>("copyApkToAuraFolder") {
+  dependsOn("assembleDebug")
+  from(layout.buildDirectory.file("outputs/apk/debug/app-debug.apk"))
+  into(rootProject.layout.projectDirectory.dir("A.U.R.A. Music"))
+  rename("app-debug.apk", "A.U.R.A. Music.apk")
+}
+
